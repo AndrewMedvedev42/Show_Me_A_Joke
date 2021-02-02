@@ -1,6 +1,5 @@
 body{
-    background:rgb(214, 31, 62);
-    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(31, 141, 214);
     display: flex;
     flex-direction: colunm;
     align-items: center;
@@ -8,28 +7,29 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    font-family: Arial;
 }
 
 .container{
-    width: 45%;
-    align-items: center;
+    width: 80%;
+    max-width: 500px;
     background-color: white;
-    border-radius: 10px;;
+    border-radius: 25px;;
     padding: 25px;
-    box-shadow: 0 10px 40px black;
     text-align: center;
+    font-weight: bolder;
 }
 
 h2{
-    margin: 0;
-    opacity: 0.5;
-    letter-spacing: 2px;
-}
+    margin: 5px;
+    color: grey;
+    font-weight: lighter;
+    font-size: 20px;
+} 
 
 .joke{
     font-size: 30px;
-    margin: 15px 10px;
-    letter-spacing: 1px;
+    margin: 20px 10px;
 }
 
 .btn{
@@ -37,23 +37,19 @@ h2{
     color:white;
     margin:10px;
     padding: 15px;
-    background: rgb(178, 31, 214);
+    background: #881e1e;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor:pointer;
-    transition: 0.5s;
-}
-
-.btn:focus{
     outline: none;
+    transition: 0.5s;
 }
 
 .btn:hover{
     transform: scale(1.1);
-    background-color: rgb(73, 209, 255);
+    background-color: rgb(221, 49, 36);
 }
 
 .btn:active{
     transform: scale(0.98);
 }
-
