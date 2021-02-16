@@ -16,14 +16,3 @@ async function genereteJoke(){
 
     jokeElem.innerHTML = data.joke
 }
-
-// function genereteJoke(){
-//     const config = {
-//         headers:{
-//             "Accept":"application/json"
-//     }
-// }
-//     fetch("https://icanhazdadjoke.com", config)
-//         .then((res) => res.json())
-//         .then((data) => {jokeElem.innerHTML = data.joke})
-// }
